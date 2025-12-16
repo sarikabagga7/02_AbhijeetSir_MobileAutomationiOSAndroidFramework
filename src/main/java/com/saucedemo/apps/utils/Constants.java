@@ -25,7 +25,32 @@ public class Constants {
     public static String REMOTE_ACCESSKEY = Config.getProperty("remote.accessKey").trim();
 
     // Test Configuration
-    public static PlatformType PLATFORM_TYPE = PlatformType.valueOf(
-            Config.getProperty("platform.type").trim().toUpperCase());
+    //public static PlatformType PLATFORM_TYPE = PlatformType.valueOf(
+    //        Config.getProperty("platform.type").trim().toUpperCase());
+    public static PlatformType PLATFORM_TYPE = null;
     public static String DEVICE_PROFILE = Config.getProperty("device.profile").trim();
+
+    public static String getPlatformName() {
+        return JsonUtils.getProfileValue("platform.name");
+    }
+
+    public static String getPlatformVersion() {
+        return JsonUtils.getProfileValue("platform.version");
+    }
+
+    public static String getDeviceName() {
+        return JsonUtils.getProfileValue("device.name");
+    }
+
+    public static String getDeviceType() {
+        return JsonUtils.getProfileValue("device.type");
+    }
+
+    public static String getAutomationName() {
+        return JsonUtils.getProfileValue("automation_name");
+    }
+
+    public static Boolean getNoResetValue() {
+        return Boolean.valueOf(JsonUtils.getProfileValue("no_reset"));
+    }
 }
