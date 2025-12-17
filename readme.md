@@ -7,6 +7,7 @@
 7. https://github.com/sarikabagga7/01_Appium_AbhijeetSirClass_MyCode_Peerji_2025
    
 ================================================================================================================================================
+Framework without parallelization
 Appium Class
 ----------------
 
