@@ -1,3 +1,5 @@
+Without paralleization
+
 1. https://www.awesomescreenshot.com/my_items
 2. sarikamobileclass2025@gmail.com
 3. Sir Drive: https://drive.google.com/drive/u/1/folders/1Havx0BRWov8pMaYrLPZ4bithqqQhPi_F
